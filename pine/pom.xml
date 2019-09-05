@@ -10,6 +10,7 @@
     <modules>
         <module>ztl-registry</module>
         <module>ztl-gateway</module>
+        <module>ztl-itme</module>
     </modules>
     <packaging>pom</packaging>
 
