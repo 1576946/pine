@@ -10,7 +10,8 @@ eureka:
       defaultZone: http://127.0.0.1:10000/eureka
 zuul:
   prefix: /api # 路由前缀
-
+  routes:
+    item-service: /item/**
 hystrix:
   command:
     default:
