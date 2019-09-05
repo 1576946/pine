@@ -6,15 +6,26 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ztl-item-service" />
         <module name="ztlregistry" />
         <module name="ztlgateway" />
+        <module name="ztl-item-interface" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ztlitem" target="1.8" />
+      <module name="ztliteminterface" target="1.8" />
+      <module name="ztlitemservice" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="pine" options="-parameters" />
+      <module name="ztl-item-interface" options="-parameters" />
+      <module name="ztl-item-service" options="-parameters" />
       <module name="ztlgateway" options="-parameters" />
+      <module name="ztliteminterface" options="-parameters" />
+      <module name="ztlitemservice" options="-parameters" />
       <module name="ztlregistry" options="-parameters" />
     </option>
   </component>

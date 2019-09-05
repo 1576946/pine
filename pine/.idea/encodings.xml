@@ -3,6 +3,9 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ztl-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ztl-item" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ztl-item/ztl-item-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ztl-item/ztl-item-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ztl-registry" charset="UTF-8" />
   </component>
 </project>
