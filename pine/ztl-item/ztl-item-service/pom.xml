@@ -26,6 +26,13 @@
             <artifactId>ztl-item-interface</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+
+        <!--引入Common-->
+        <dependency>
+            <groupId>cn.ztl.common</groupId>
+            <artifactId>ztl-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
 
