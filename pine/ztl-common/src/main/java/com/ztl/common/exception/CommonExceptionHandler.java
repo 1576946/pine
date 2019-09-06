@@ -9,8 +9,9 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 public class CommonExceptionHandler {
 
     //对异常分类处理
-    @ExceptionHandler(RuntimeException.class)
-    public ResponseEntity<String> handleException(RuntimeException e){
+    @ExceptionHandler(ZtlException.class)
+    public ResponseEntity<String> handleException(ZtlException e){
+        
         return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(e.getMessage());
     }
 }
