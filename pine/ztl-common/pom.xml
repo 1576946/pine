@@ -11,4 +11,10 @@
 
     <groupId>cn.ztl.common</groupId>
     <artifactId>ztl-common</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+        </dependency>
+    </dependencies>
 </project>
