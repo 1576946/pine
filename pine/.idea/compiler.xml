@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ztl-item-service" />
+        <module name="ztl-item-interface" />
         <module name="ztlregistry" />
         <module name="ztlcommon" />
         <module name="ztlgateway" />
-        <module name="ztl-item-interface" />
+        <module name="ztl-item-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
