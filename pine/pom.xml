@@ -11,6 +11,7 @@
         <module>ztl-registry</module>
         <module>ztl-gateway</module>
         <module>ztl-item</module>
+        <module>ztl-common</module>
     </modules>
     <packaging>pom</packaging>
 
