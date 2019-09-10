@@ -2,5 +2,10 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pine-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pine-item" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pine-item/pine-item-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pine-item/pine-item-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pine-registry" charset="UTF-8" />
   </component>
 </project>

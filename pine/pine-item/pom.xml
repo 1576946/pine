@@ -8,14 +8,13 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
+    <groupId>com.pine.parent</groupId>
+    <artifactId>pine-item</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>pine-item-interface</module>
+        <module>pine-item-service</module>
+    </modules>
 
 
-    <artifactId>pine-registry</artifactId>
-
-    <dependencies>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
-        </dependency>
-    </dependencies>
 </project>
