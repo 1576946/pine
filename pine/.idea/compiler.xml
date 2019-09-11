@@ -10,10 +10,12 @@
         <module name="pine-gateway" />
         <module name="pine-item-interface" />
         <module name="pine-item-service" />
+        <module name="pine-common" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="pine" target="1.8" />
+      <module name="pine-common" target="1.8" />
       <module name="pine-gateway" target="1.8" />
       <module name="pine-item" target="1.8" />
       <module name="pine-item-interface" target="1.8" />
@@ -24,6 +26,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="pine" options="" />
+      <module name="pine-common" options="-parameters" />
       <module name="pine-gateway" options="-parameters" />
       <module name="pine-item" options="" />
       <module name="pine-item-interface" options="-parameters" />
