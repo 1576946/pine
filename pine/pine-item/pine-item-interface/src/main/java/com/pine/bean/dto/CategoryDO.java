@@ -4,7 +4,7 @@ import lombok.Data;
 
 import javax.persistence.Table;
 
-@Table(name="tb=category")
+@Table(name="tb_category")
 @Data
 public class CategoryDO {
     private Long id;
