@@ -1,7 +1,8 @@
-package com.ztl.controller;
+package com.pine.controller;
 
-import com.ztl.bean.dto.CategoryDO;
-import com.ztl.service.CategoryService;
+import com.pine.service.CategoryService;
+import com.pine.bean.dto.CategoryDO;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

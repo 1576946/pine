@@ -2,8 +2,11 @@ package com.pine.bean.dto;
 
 import lombok.Data;
 
+import javax.persistence.Table;
+
+@Table(name="tb=category")
 @Data
-public class CateoryDO {
+public class CategoryDO {
     private Long id;
     private String name;
     private Long parentId;

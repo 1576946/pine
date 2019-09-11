@@ -1,4 +1,4 @@
-package com.ztl.common.constant;
+package com.pine.common.constant;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

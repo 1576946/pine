@@ -3,6 +3,8 @@ server:
 spring:
   application:
     name: pine-gateway
+  main:
+    allow-bean-definition-overriding: true
 eureka:
   client:
     service-url:
@@ -15,6 +17,9 @@ eureka:
 zuul:
   prefix: /api # 添加路由前缀
   retryable: true
+  routes:
+    item-service: /item/** #网关配置路由地址
+
 ribbon:
   ConnectTimeout: 250 # 连接超时时间(ms)
   ReadTimeout: 2000 # 通信超时时间(ms)

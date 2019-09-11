@@ -1,7 +1,7 @@
-package com.ztl.common.exception;
+package com.pine.common.exception;
 
-import com.ztl.common.bean.bo.ExceptionResultBean;
-import com.ztl.common.constant.ExceptionEnums;
+import com.pine.common.bean.bo.ExceptionResultBean;
+import com.pine.common.constant.ExceptionEnums;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;

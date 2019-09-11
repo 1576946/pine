@@ -1,6 +1,6 @@
-package com.ztl.common.bean.bo;
+package com.pine.common.bean.bo;
 
-import com.ztl.common.constant.ExceptionEnums;
+import com.pine.common.constant.ExceptionEnums;
 import lombok.Data;
 
 /**

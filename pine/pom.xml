@@ -6,11 +6,12 @@
         <module>pine-registry</module>
         <module>pine-item</module>
         <module>pine-gateway</module>
+        <module>pine-common</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.1.8.RELEASE</version>
+        <version>2.0.1.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
@@ -32,7 +33,7 @@
         <mapper.starter.version>2.0.3</mapper.starter.version>
         <mysql.version>5.1.32</mysql.version>
         <pageHelper.starter.version>1.2.5</pageHelper.starter.version>
-        <leyou.latest.version>1.0.0-SNAPSHOT</leyou.latest.version>
+        <pine.latest.version>0.0.1-SNAPSHOT</pine.latest.version>
         <fastDFS.client.version>1.26.1-RELEASE</fastDFS.client.version>
     </properties>
 

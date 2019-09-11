@@ -1,6 +1,6 @@
-package com.ztl.common.exception;
+package com.pine.common.exception;
 
-import com.ztl.common.constant.ExceptionEnums;
+import com.pine.common.constant.ExceptionEnums;
 import lombok.Getter;
 
 public class ZtlException extends RuntimeException{
