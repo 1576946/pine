@@ -2,28 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="131df488-d69c-4fa0-93b1-5f24e73046f6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pine-gateway/src/main/java/com/pine/config.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pine-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pine-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pine-common/src/main/java/com/pine/common/bean/bo/ExceptionResultBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/pine-common/src/main/java/com/pine/common/bean/bo/ExceptionResultBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pine-common/src/main/java/com/pine/common/constant/ExceptionEnums.java" beforeDir="false" afterPath="$PROJECT_DIR$/pine-common/src/main/java/com/pine/common/constant/ExceptionEnums.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pine-common/src/main/java/com/pine/common/exception/CommonExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/pine-common/src/main/java/com/pine/common/exception/CommonExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pine-common/src/main/java/com/pine/common/exception/ZtlException.java" beforeDir="false" afterPath="$PROJECT_DIR$/pine-common/src/main/java/com/pine/common/exception/ZtlException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pine-gateway/pine-gateway.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pine-gateway/pine-gateway.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pine-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/pine-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pine-item/pine-item-interface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pine-item/pine-item-interface/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pine-item/pine-item-interface/src/main/java/com/pine/bean/dto/CategoryDO.java" beforeDir="false" afterPath="$PROJECT_DIR$/pine-item/pine-item-interface/src/main/java/com/pine/bean/dto/CategoryDO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pine-item/pine-item-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pine-item/pine-item-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pine-item/pine-item-service/src/main/java/com/pine/PineItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pine-item/pine-item-service/src/main/java/com/pine/PineItemService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pine-item/pine-item-service/src/main/java/com/pine/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pine-item/pine-item-service/src/main/java/com/pine/controller/CategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pine-item/pine-item-service/src/main/java/com/pine/dao/mysql/CategoryDaoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/pine-item/pine-item-service/src/main/java/com/pine/dao/mysql/CategoryDaoMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pine-item/pine-item-service/src/main/java/com/pine/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pine-item/pine-item-service/src/main/java/com/pine/service/CategoryService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pine-item/pine-item-service/src/main/java/com/pine/service/impl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/pine-item/pine-item-service/src/main/java/com/pine/service/impl/CategoryServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pine-item/pine-item-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/pine-item/pine-item-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pine-item/pine-item-service/src/main/resources/mapper/CategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pine-item/pine-item-service/src/main/resources/mapper/CategoryMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pine-item/pine-item-service/src/test/java/com/pine/TestCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/pine-item/pine-item-service/src/test/java/com/pine/TestCategory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pine-registry/pine-registry.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pine-registry/pine-registry.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -46,14 +32,50 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pine-item/pine-item-service/src/main/java/com/pine/PineItemService.java">
+        <entry file="file://$PROJECT_DIR$/pine-item/pine-item-service/src/main/java/com/pine/service/impl/CategoryServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+            <state relative-caret-position="143">
+              <caret line="22" column="56" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#333#334#0" expanded="true" />
-                <element signature="e#393#394#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pine-registry/src/main/java/com/pine/PineRegistry.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pine-gateway/src/main/java/com/pine/PineGateway.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#409#410#0" expanded="true" />
+                <element signature="e#465#466#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pine-item/pine-item-service/src/main/java/com/pine/dao/mysql/CategoryDaoMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="11" column="43" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -62,17 +84,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pine-item/pine-item-service/src/main/resources/mapper/CategoryMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+            <state relative-caret-position="132">
+              <caret line="4" column="126" selection-start-line="4" selection-start-column="126" selection-end-line="4" selection-end-column="126" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pine-item/pine-item-service/src/test/java/com/pine/TestCategory.java">
+        <entry file="file://$PROJECT_DIR$/pine-gateway/src/main/java/com/pine/config.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+            <state relative-caret-position="66">
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pine-item/pine-item-interface/src/main/java/com/pine/bean/dto/CategoryDO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="9" column="19" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pine-item/pine-item-service/src/main/java/com/pine/PineItemService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,20 +126,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pine-item/pine-item-service/src/main/java/com/pine/controller/CategoryController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pine-item/pine-item-service/src/main/java/com/pine/service/CategoryService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            <state relative-caret-position="-47">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,53 +138,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pine-item/pine-item-service/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="27" column="38" lean-forward="true" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pine-item/pine-item-service/src/main/java/com/pine/dao/mysql/CategoryDaoMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pine-item/pine-item-service/src/main/java/com/pine/service/impl/CategoryServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="23" column="69" lean-forward="true" selection-start-line="23" selection-start-column="69" selection-end-line="23" selection-end-column="69" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pine-item/pine-item-interface/src/main/java/com/pine/bean/dto/CategoryDO.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pine-item/pine-item-service/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="44" selection-start-line="44" selection-end-line="44" />
+              <caret line="27" column="38" lean-forward="true" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -188,15 +174,15 @@
         <option value="$PROJECT_DIR$/pine-item/pine-item-interface/pom.xml" />
         <option value="$PROJECT_DIR$/pine-item/src/main/java/com/pine/dao/mysql/CategoryDaoMapper.java" />
         <option value="$PROJECT_DIR$/pine-item/pine-item-service/src/main/java/com/pine/controller/CategoryController.java" />
-        <option value="$PROJECT_DIR$/pine-item/pine-item-service/src/main/java/com/pine/service/impl/CategoryServiceImpl.java" />
         <option value="$PROJECT_DIR$/pine-item/pine-item-service/src/main/java/com/pine/service/CategoryService.java" />
         <option value="$PROJECT_DIR$/pine-item/pine-item-interface/src/main/java/com/pine/bean/dto/CategoryDO.java" />
         <option value="$PROJECT_DIR$/pine-item/pine-item-service/pom.xml" />
-        <option value="$PROJECT_DIR$/pine-item/pine-item-service/src/main/java/com/pine/PineItemService.java" />
-        <option value="$PROJECT_DIR$/pine-item/pine-item-service/src/main/resources/mapper/CategoryMapper.xml" />
         <option value="$PROJECT_DIR$/pine-item/pine-item-service/src/main/java/com/pine/dao/mysql/CategoryDaoMapper.java" />
-        <option value="$PROJECT_DIR$/pine-item/pine-item-service/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/pine-item/pine-item-service/src/test/java/com/pine/TestCategory.java" />
+        <option value="$PROJECT_DIR$/pine-item/pine-item-service/src/main/java/com/pine/PineItemService.java" />
+        <option value="$PROJECT_DIR$/pine-item/pine-item-service/src/main/java/com/pine/service/impl/CategoryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/pine-item/pine-item-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/pine-item/pine-item-service/src/main/resources/mapper/CategoryMapper.xml" />
       </list>
     </option>
   </component>
@@ -251,10 +237,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2067" />
-    <option name="y" value="235" />
-    <option name="width" value="1400" />
-    <option name="height" value="513" />
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -278,32 +264,37 @@
             <path>
               <item name="pine" type="b2602c69:ProjectViewProjectNode" />
               <item name="pine" type="462c0819:PsiDirectoryNode" />
-              <item name="pine-common" type="462c0819:PsiDirectoryNode" />
+              <item name="pine-gateway" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pine" type="462c0819:PsiDirectoryNode" />
+              <item name="pine-gateway" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pine" type="b2602c69:ProjectViewProjectNode" />
               <item name="pine" type="462c0819:PsiDirectoryNode" />
-              <item name="pine-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pine" type="462c0819:PsiDirectoryNode" />
-              <item name="pine-common" type="462c0819:PsiDirectoryNode" />
+              <item name="pine-gateway" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pine" type="b2602c69:ProjectViewProjectNode" />
               <item name="pine" type="462c0819:PsiDirectoryNode" />
-              <item name="pine-common" type="462c0819:PsiDirectoryNode" />
+              <item name="pine-gateway" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pine" type="462c0819:PsiDirectoryNode" />
+              <item name="pine-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pine" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pine" type="b2602c69:ProjectViewProjectNode" />
@@ -387,16 +378,6 @@
               <item name="pine-item-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pine" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pine" type="462c0819:PsiDirectoryNode" />
-              <item name="pine-item" type="462c0819:PsiDirectoryNode" />
-              <item name="pine-item-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -408,33 +389,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pine" type="462c0819:PsiDirectoryNode" />
-              <item name="pine-item" type="462c0819:PsiDirectoryNode" />
-              <item name="pine-item-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pine" type="462c0819:PsiDirectoryNode" />
-              <item name="pine-item" type="462c0819:PsiDirectoryNode" />
-              <item name="pine-item-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pine" type="462c0819:PsiDirectoryNode" />
-              <item name="pine-item" type="462c0819:PsiDirectoryNode" />
-              <item name="pine-item-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pine" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -455,8 +409,8 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -488,7 +442,23 @@
     </option>
     <option name="contentProportion" value="0.15476191" />
   </component>
-  <component name="RunManager" selected="JUnit.TestCategory.Test">
+  <component name="RunManager" selected="Spring Boot.PineGateway">
+    <configuration name="CategoryServiceImpl.Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pine-item-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pine.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.pine.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.pine.service.impl.CategoryServiceImpl" />
+      <option name="METHOD_NAME" value="Test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestCategory.Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pine-item-service" />
       <extension name="coverage">
@@ -535,6 +505,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CategoryServiceImpl.Test" />
         <item itemvalue="JUnit.TestCategory.Test" />
       </list>
     </recent_temporary>
@@ -549,23 +520,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568130272252</updated>
-      <workItem from="1568130275117" duration="12202000" />
+      <workItem from="1568130275117" duration="17863000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestCategory_Test - 2019.09.11 at 10h 20m 02s.xml">
+    <history-entry file="TestCategory_Test - 2019.09.11 at 10h 26m 23s.xml">
       <configuration name="TestCategory.Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestCategory_Test - 2019.09.11 at 10h 20m 55s.xml">
+    <history-entry file="TestCategory_Test - 2019.09.11 at 10h 33m 02s.xml">
       <configuration name="TestCategory.Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestCategory_Test - 2019.09.11 at 10h 22m 10s.xml">
+    <history-entry file="TestCategory_Test - 2019.09.11 at 10h 33m 05s.xml">
       <configuration name="TestCategory.Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCategory_Test - 2019.09.11 at 10h 35m 33s.xml">
+      <configuration name="TestCategory.Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCategory_Test - 2019.09.11 at 10h 37m 39s.xml">
+      <configuration name="TestCategory.Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCategory_Test - 2019.09.11 at 10h 39m 06s.xml">
+      <configuration name="TestCategory.Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CategoryServiceImpl_Test - 2019.09.11 at 10h 42m 25s.xml">
+      <configuration name="CategoryServiceImpl.Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CategoryServiceImpl_Test - 2019.09.11 at 10h 42m 49s.xml">
+      <configuration name="CategoryServiceImpl.Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CategoryServiceImpl_Test - 2019.09.11 at 10h 46m 44s.xml">
+      <configuration name="CategoryServiceImpl.Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CategoryServiceImpl_Test - 2019.09.11 at 10h 55m 22s.xml">
+      <configuration name="CategoryServiceImpl.Test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12202000" />
+    <option name="totallyTimeSpent" value="17863000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -577,21 +569,21 @@
       <window_info id="UI Designer" />
       <window_info id="Web" side_tool="true" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17857143" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17857143" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Run Dashboard" weight="0.4804772" />
+      <window_info anchor="bottom" id="Run Dashboard" visible="true" weight="0.4804772" />
       <window_info anchor="bottom" id="Spring" weight="0.329718" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" sideWeight="0.50053304" side_tool="true" weight="0.329718" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" weight="0.329718" />
       <window_info anchor="bottom" id="Java Enterprise" weight="0.329718" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" weight="0.329718" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.329718" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.329718" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -610,6 +602,18 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/pine-item/pine-item-service/src/test/java/com/pine/TestCategory.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pine-item/src/main/java/com/pine/PineItem.java">
@@ -631,16 +635,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pine-registry/src/main/java/com/pine/PineRegistry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pine-gateway/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -667,18 +661,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pine-gateway/src/main/java/com/pine/PineGateway.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#409#410#0" expanded="true" />
-            <element signature="e#441#442#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -752,23 +734,6 @@
     <entry file="file://$PROJECT_DIR$/pine-item/pine-item-service/src/main/resources/mapper/CateoryDaoMappr">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pine-item/pine-item-service/src/main/resources/mapper/CategoryMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pine-item/pine-item-service/src/main/java/com/pine/controller/CategoryController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pine-item/pine-item-service/src/main/java/com/pine/service/CategoryService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
@@ -779,10 +744,161 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pine-item/pine-item-interface/src/main/java/com/pine/bean/dto/CategoryDO.java">
+    <entry file="jar://D:/Java/jdk1.8.0_144/src.zip!/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="497" selection-start-line="497" selection-end-line="497" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/statements/InvokeMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1327">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_144/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="845" selection-start-line="845" selection-end-line="845" />
+          <folding>
+            <element signature="e#31086#31087#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_144/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="1040" column="42" selection-start-line="1040" selection-start-column="42" selection-end-line="1040" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="240" selection-start-line="240" selection-end-line="240" />
+          <folding>
+            <element signature="e#2111#2112#0" expanded="true" />
+            <element signature="e#2155#2156#0" expanded="true" />
+            <element signature="e#5951#6086#0" expanded="true" />
+            <element signature="e#6085#6086#0" expanded="true" />
+            <element signature="e#6484#6648#0" expanded="true" />
+            <element signature="e#6647#6648#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runner/JUnitCore.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runner/notification/RunNotifier.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+          <folding>
+            <element signature="e#1705#1886#0" expanded="true" />
+            <element signature="e#1885#1886#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pine-item/pine-item-service/src/test/java/com/pine/TestCategory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" selection-start-line="16" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_144/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_144/jre/lib/rt.jar!/sun/reflect/DelegatingMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.1.0/junit-platform-commons-1.1.0.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="720" selection-start-line="720" selection-end-line="720" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_144/src.zip!/java/lang/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="356" selection-start-line="356" selection-end-line="356" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_144/jre/lib/rt.jar!/sun/misc/Launcher.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="173" selection-start-line="173" selection-end-line="173" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_144/src.zip!/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="1335" selection-start-line="1335" selection-end-line="1335" />
+          <folding>
+            <element signature="e#52271#52272#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_144/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="1654" selection-start-line="1654" selection-end-line="1654" />
+          <folding>
+            <element signature="e#62860#62861#0" expanded="true" />
+            <element signature="e#62916#62917#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pine-item/pine-item-service/src/main/java/com/pine/controller/CategoryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-47">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -791,8 +907,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pine-item/pine-item-service/src/main/java/com/pine/service/impl/CategoryServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="23" column="69" lean-forward="true" selection-start-line="23" selection-start-column="69" selection-end-line="23" selection-end-column="69" />
+        <state relative-caret-position="143">
+          <caret line="22" column="56" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -801,8 +917,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pine-item/pine-item-service/src/main/java/com/pine/dao/mysql/CategoryDaoMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        <state relative-caret-position="176">
+          <caret line="11" column="43" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -811,30 +927,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pine-item/pine-item-service/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
+        <state relative-caret-position="198">
           <caret line="27" column="38" lean-forward="true" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pine-registry/src/main/java/com/pine/PineRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pine-gateway/src/main/java/com/pine/PineGateway.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pine-item/pine-item-service/src/main/java/com/pine/PineItemService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        <state relative-caret-position="143">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#333#334#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pine-item/pine-item-service/src/test/java/com/pine/TestCategory.java">
+    <entry file="file://$PROJECT_DIR$/pine-item/pine-item-interface/src/main/java/com/pine/bean/dto/CategoryDO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        <state relative-caret-position="132">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pine-item/pine-item-service/src/main/resources/mapper/CategoryMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="126" selection-start-line="4" selection-start-column="126" selection-end-line="4" selection-end-column="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pine-gateway/src/main/java/com/pine/config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -888,7 +1038,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>pine-item</last-edited>
+          <last-edited>pine-item-interface</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

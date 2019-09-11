@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.pine.dao.mysql.CategoryDaoMapper">
-
-
-    <select id="queryCategoryListByPid" parameterType="Long" resultType="List">
-        SELECT  ca.name,ca.is_parent,ca.sort
-         FROM   `tb_category` ca
+    <select id="queryCategoryListByPid" parameterType="java.lang.Long" resultType="com.pine.bean.dto.CategoryDO">
+        SELECT  tb_category.name,tb_category.is_parent isParent,tb_category.sort,tb_category.id,tb_category.parent_id parentId
+         FROM   tb_category
         WHERE  parent_id = #{id}
     </select>
 </mapper>

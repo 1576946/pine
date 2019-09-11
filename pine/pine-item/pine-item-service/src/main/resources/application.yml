@@ -4,7 +4,7 @@ spring:
   application:
     name: item-service
   datasource:
-    url: jdbc:mysql://localhost:3306/ztlshop
+    url: jdbc:mysql://localhost:3306/ztlshop?serverTimezone=UTC
     username: root
     password: root
     hikari:
@@ -24,5 +24,5 @@ eureka:
     ip-address: 127.0.0.1
     instance-id: ${spring.application.name}:${server.port}
 mybatis:
-  type-aliases-package: com.pine.bean.dto
-  config-location: mapper/*.mapper.xml
+  type-aliases-package: com.pine.bean
+  mapper-locations: classpath:mapper/*Mapper.xml
