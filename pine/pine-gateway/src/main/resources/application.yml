@@ -15,7 +15,7 @@ eureka:
     ip-address: 127.0.0.1
     instance-id: ${spring.application.name}:${server.port}
 zuul:
-  prefix: /api # 添加路由前缀
+  prefix: /api  # 添加路由前缀
   retryable: true
   routes:
     item-service: /item/** #网关配置路由地址
