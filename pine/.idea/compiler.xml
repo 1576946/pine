@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="pine-registry" />
-        <module name="pine-gateway" />
-        <module name="pine-item-interface" />
         <module name="pine-item-service" />
         <module name="pine-common" />
+        <module name="pine-upload" />
+        <module name="pine-gateway" />
+        <module name="pine-item-interface" />
+        <module name="pine-registry" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -21,6 +22,7 @@
       <module name="pine-item-interface" target="1.8" />
       <module name="pine-item-service" target="1.8" />
       <module name="pine-registry" target="1.8" />
+      <module name="pine-upload" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -32,6 +34,7 @@
       <module name="pine-item-interface" options="-parameters" />
       <module name="pine-item-service" options="-parameters" />
       <module name="pine-registry" options="-parameters" />
+      <module name="pine-upload" options="-parameters" />
     </option>
   </component>
 </project>

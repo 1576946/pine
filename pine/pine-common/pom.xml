@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.pine.parent</groupId>
+    <groupId>com.pine.common</groupId>
     <artifactId>pine-common</artifactId>
     <dependencies>
         <dependency>

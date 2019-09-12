@@ -8,5 +8,6 @@
     <file url="file://$PROJECT_DIR$/pine-item/pine-item-interface" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pine-item/pine-item-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pine-registry" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pine-upload" charset="UTF-8" />
   </component>
 </project>

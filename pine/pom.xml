@@ -7,6 +7,7 @@
         <module>pine-item</module>
         <module>pine-gateway</module>
         <module>pine-common</module>
+        <module>pine-upload</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -34,7 +35,7 @@
         <mysql.version>5.1.32</mysql.version>
         <pageHelper.starter.version>1.2.5</pageHelper.starter.version>
         <pine.latest.version>0.0.1-SNAPSHOT</pine.latest.version>
-        <fastDFS.client.version>1.26.1-RELEASE</fastDFS.client.version>
+        <fastDFS.client.version>1.26.2</fastDFS.client.version>
     </properties>
 
     <dependencyManagement>
