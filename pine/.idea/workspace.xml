@@ -2,27 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="131df488-d69c-4fa0-93b1-5f24e73046f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pine-upload/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pine-upload/src/main/java/com/pine/upload/PineUploadService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pine-upload/src/main/java/com/pine/upload/config/FastClientImporter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pine-upload/src/main/java/com/pine/upload/config/GlobalCorsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pine-upload/src/main/java/com/pine/upload/controller/UploadController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pine-upload/src/main/java/com/pine/upload/service/Impl/UploadServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pine-upload/src/main/java/com/pine/upload/service/UploadService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pine-upload/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pine-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pine-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pine-common/src/main/java/com/pine/common/constant/ExceptionEnums.java" beforeDir="false" afterPath="$PROJECT_DIR$/pine-common/src/main/java/com/pine/common/constant/ExceptionEnums.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pine-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/pine-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pine-item/pine-item-interface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pine-item/pine-item-interface/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pine-item/pine-item-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pine-item/pine-item-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pine-item/pine-item-service/src/main/java/com/pine/controller/BrandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pine-item/pine-item-service/src/main/java/com/pine/controller/BrandController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pine-item/pine-item-service/src/main/java/com/pine/dao/mysql/BrandDaoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/pine-item/pine-item-service/src/main/java/com/pine/dao/mysql/BrandDaoMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pine-item/pine-item-service/src/main/java/com/pine/service/BrandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pine-item/pine-item-service/src/main/java/com/pine/service/BrandService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pine-item/pine-item-service/src/main/java/com/pine/service/impl/BrandServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/pine-item/pine-item-service/src/main/java/com/pine/service/impl/BrandServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pine-upload/src/main/java/com/pine/upload/config/FastClientImporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/pine-upload/src/main/java/com/pine/upload/config/FastClientImporter.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -81,15 +62,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pine-gateway/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pine-item/pine-item-service/src/main/java/com/pine/service/impl/CategoryServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="197">
@@ -107,7 +79,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pine-upload/src/main/java/com/pine/upload/PineUploadService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
@@ -115,6 +87,15 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pine-upload/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="18" column="58" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -329,6 +310,14 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="upload" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="pine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pine" type="462c0819:PsiDirectoryNode" />
+              <item name="pine-upload" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -464,7 +453,7 @@
       <updated>1568130272252</updated>
       <workItem from="1568130275117" duration="22384000" />
       <workItem from="1568194780174" duration="15967000" />
-      <workItem from="1568254860305" duration="8555000" />
+      <workItem from="1568254860305" duration="9211000" />
     </task>
     <servers />
   </component>
@@ -501,7 +490,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46906000" />
+    <option name="totallyTimeSpent" value="47562000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -516,7 +505,7 @@
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18176973" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18176973" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -539,7 +528,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.329718" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.329718" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.49946696" visible="true" weight="0.3557484" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.49946696" visible="true" weight="0.3557484" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -833,13 +822,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pine-upload/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="18" column="58" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pine-common/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -983,6 +965,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pine-upload/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="58" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
         </state>
       </provider>
     </entry>
