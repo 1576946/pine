@@ -26,5 +26,10 @@ public class CategoryServiceImpl implements CategoryService {
         return list;
     }
 
+    @Override
+    public List<CategoryDO> queryById(List<Long> ids) {
+        return categoryDaoMapper.queryById(ids);
+    }
+
 
 }
