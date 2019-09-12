@@ -16,4 +16,7 @@ public interface BrandDaoMapper {
 
     @Select("Select id from tb_brand where name = #{name}")
     Long findIdByName(String name);
+
+    @Select("Select * from tb_brand where id = #{id}")
+    BrandDO queryById(Long id);
 }
