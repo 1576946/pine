@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.pine.parent</groupId>
+    <groupId>com.pine.service</groupId>
     <artifactId>pine-item-service</artifactId>
 
     <dependencies>
@@ -44,14 +44,14 @@
 
 
         <dependency>
-            <groupId>com.pine.parent</groupId>
-            <artifactId>pine-common</artifactId>
+            <groupId>com.pine.service</groupId>
+            <artifactId>pine-item-interface</artifactId>
             <version>0.0.1-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>com.pine.parent</groupId>
-            <artifactId>pine-item-interface</artifactId>
+            <groupId>com.pine.common</groupId>
+            <artifactId>pine-common</artifactId>
             <version>0.0.1-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
