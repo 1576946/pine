@@ -19,7 +19,10 @@ zuul:
   retryable: true
   routes:
     item-service: /item/** #网关配置路由地址
-
+    upload-service:
+      path: /upload/**
+      serviceid: upload-service
+      strip-prefix: false
 ribbon:
   ConnectTimeout: 250 # 连接超时时间(ms)
   ReadTimeout: 2000 # 通信超时时间(ms)
