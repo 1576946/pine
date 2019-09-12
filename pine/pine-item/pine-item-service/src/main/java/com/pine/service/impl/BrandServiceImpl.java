@@ -8,6 +8,9 @@ import com.pine.dao.mysql.BrandDaoMapper;
 import com.pine.service.BrandService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import java.util.List;
 
 @Service
 public class BrandServiceImpl implements BrandService {
@@ -22,5 +25,18 @@ public class BrandServiceImpl implements BrandService {
         Page<BrandDO> pageInfo = brandDaoMapper.queryBrandByPageAndSort(page,rows,sortBy,desc,key);
         System.out.println(pageInfo);
         return new PageResultBean<>(pageInfo.getTotal(),pageInfo);
+    }
+
+    @Override
+    @Transactional
+    public void saveBrand(BrandDO brand, List<Long> cids) {
+        // 新增品牌信息
+        brandDaoMapper.saveBrand(brand);
+        //查新增表id
+        brand.setId(brandDaoMapper.findIdByName(brand.getName()));
+        // 新增品牌和分类中间表
+        for (Long cid : cids) {
+            brandDaoMapper.insertCategoryBrand(cid, brand.getId());
+        }
     }
 }
