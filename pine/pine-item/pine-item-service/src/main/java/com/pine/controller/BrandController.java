@@ -8,10 +8,9 @@ import com.pine.service.BrandService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 @RestController
 @RequestMapping("brand")
@@ -42,10 +41,20 @@ public class BrandController {
         System.out.println("desc = "+desc);
         System.out.println("key = "+key);
         PageResultBean<BrandDO> result = this.brandService.queryBrandByPageAndSort(page,rows,sortBy,desc,key);
-        System.out.println("---------");
         if (result == null || result.getItems().size() == 0) {
             throw new ZtlException(ExceptionEnums.CATEGORY_NOT_FOND);
         }
         return ResponseEntity.ok(result);
+    }
+
+    /**
+     * 新增品牌
+     * @param brand
+     * @return
+     */
+    @PostMapping
+    public ResponseEntity<Void> saveBrand(BrandDO brand, @RequestParam("cids") List<Long> cids) {
+        this.brandService.saveBrand(brand, cids);
+        return new ResponseEntity<>(HttpStatus.CREATED);
     }
 }
