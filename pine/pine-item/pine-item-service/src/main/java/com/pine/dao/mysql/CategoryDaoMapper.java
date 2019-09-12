@@ -10,4 +10,6 @@ import java.util.List;
 @Mapper
 public interface CategoryDaoMapper {
     List<CategoryDO> queryCategoryListByPid(Long pid);
+
+    List<CategoryDO> queryById(List<Long> ids);
 }

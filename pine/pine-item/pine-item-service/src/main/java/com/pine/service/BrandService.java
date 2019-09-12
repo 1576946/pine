@@ -9,4 +9,6 @@ public interface BrandService {
     PageResultBean<BrandDO> queryBrandByPageAndSort(Integer page, Integer rows, String sortBy, Boolean desc, String key);
 
     void saveBrand(BrandDO brand, List<Long> cids);
+
+    BrandDO queryById(Long id);
 }

@@ -4,6 +4,8 @@ import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
 import com.pine.bean.dto.BrandDO;
 import com.pine.common.bean.bo.PageResultBean;
+import com.pine.common.constant.ExceptionEnums;
+import com.pine.common.exception.ZtlException;
 import com.pine.dao.mysql.BrandDaoMapper;
 import com.pine.service.BrandService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,6 +26,8 @@ public class BrandServiceImpl implements BrandService {
         // 过滤
         Page<BrandDO> pageInfo = brandDaoMapper.queryBrandByPageAndSort(page,rows,sortBy,desc,key);
         System.out.println(pageInfo);
+        if(pageInfo == null)
+            throw new ZtlException(ExceptionEnums.SUP_FILE_NOT_FOND);
         return new PageResultBean<>(pageInfo.getTotal(),pageInfo);
     }
 
@@ -38,5 +42,10 @@ public class BrandServiceImpl implements BrandService {
         for (Long cid : cids) {
             brandDaoMapper.insertCategoryBrand(cid, brand.getId());
         }
+    }
+
+    @Override
+    public BrandDO queryById(Long id) {
+        return brandDaoMapper.queryById(id);
     }
 }
