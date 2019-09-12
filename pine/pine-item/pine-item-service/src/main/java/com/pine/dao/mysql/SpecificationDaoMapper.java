@@ -6,6 +6,6 @@ import org.apache.ibatis.annotations.Select;
 
 @Mapper
 public interface SpecificationDaoMapper {
-    @Select("selsct * from tb_specification where Category_id = #{id}")
+    @Select("select * from tb_specification where Category_id = #{id}")
     SpecificationDO querySpecificationByCategoryId(Long id);
 }
