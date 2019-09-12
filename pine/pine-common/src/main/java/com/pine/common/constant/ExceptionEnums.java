@@ -11,9 +11,10 @@ import lombok.NoArgsConstructor;
 public enum ExceptionEnums {
 
     PRICE_CANNOT_BE_NULL(400,"错误信息"),  //请求参数有误
-    CATEGORY_NOT_FOND(404,"商品分类没有查到"), //资源服务未找到
+    CATEGORY_NOT_FOND(404,"商品没有查到"), //资源服务未找到
     UPLOAD_FILE_ERROR(500,"图片上传失败"),
     UPLOAD_FILE_TYPE_ERROR(500,"图片格式有问题"),
+    SUP_FILE_NOT_FOND(404,"商品列表没有查到"),
     ;
     private int code;
     private String msg;

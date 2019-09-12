@@ -35,11 +35,6 @@ public class BrandController {
             @RequestParam(value = "sortBy", defaultValue = "letter") String sortBy,
             @RequestParam(value = "desc", defaultValue = "false") Boolean desc,
             @RequestParam(value = "key", required = false) String key) {
-        System.out.println("page = "+page);
-        System.out.println("rows = "+rows);
-        System.out.println("sortBy = "+sortBy);
-        System.out.println("desc = "+desc);
-        System.out.println("key = "+key);
         PageResultBean<BrandDO> result = this.brandService.queryBrandByPageAndSort(page,rows,sortBy,desc,key);
         if (result == null || result.getItems().size() == 0) {
             throw new ZtlException(ExceptionEnums.CATEGORY_NOT_FOND);
